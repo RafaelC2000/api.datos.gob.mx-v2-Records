@@ -1,0 +1,38 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.cantidad, .buscador{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px auto;
+}
+.cantidad label, .buscador label{
+    font-weight: bold;
+}
+.cantidad .input{
+    width: 40px;
+    height: 20px;
+    margin: 10px;
+}
+.buscador #buscar{
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+}
+table{
+    border: 1px solid black;
+}
+span{
+    font-weight: bold;
+}
+td{
+    padding: 20px;
+    background-color: burlywood;
+}
