@@ -13,7 +13,7 @@ body{
     align-items: center;
     padding: 50px auto;
 }
-.cantidad label, .buscador label{
+.cantidad label, .buscador label, .buscador2 label{
     font-weight: bold;
 }
 .cantidad .input{
@@ -35,4 +35,7 @@ span{
 td{
     padding: 20px;
     background-color: burlywood;
+}
+.container,.mensaje{
+    margin-bottom: 40px;
 }
